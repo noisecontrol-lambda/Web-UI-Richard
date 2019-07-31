@@ -1,7 +1,7 @@
 // Mixins in here
 
 .button-mixin(@flex, @justify,@border-radius,@align,@width,@height,
-    @background,@color,@border,@cursor,@font-size,@margin) {
+    @background,@color,@border,@cursor,@font-size,@margin,@transition) {
 	display: @flex;
 	justify-content: @justify;
 	border-radius: @border-radius;
@@ -14,14 +14,21 @@
 	cursor: @cursor;
 	font-size: @font-size;
 	margin: @margin;
+	transition: @transition;
 
 	&:hover {
-		background: lighten(@background, 10%);
-		color: darken(@color, 20%);
+		background: white;
+		color: rgba(49, 16, 84, .8);
+		-ms-transform: translateX(12px);
+		-webkit-transform: translateX(12px);
+		transform: translateX(12px);
 	}
 }
 
+a {
+	text-decoration: none;
+}
 .btn {
-	.button-mixin(flex,center,16px,center,50%,20%,rgba(49, 16, 84, .5),white, 1px solid black,
-        pointer, 3.75rem,auto);
+	.button-mixin(flex,center,16px,center,50%,30%,rgba(49, 16, 84, .6),white, 1px solid black,
+		pointer, 3.75rem,auto,.5s);
 }
