@@ -165,7 +165,7 @@ html {
 }
 html,
 body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Delius Swash Caps', cursive;
   color: white;
 }
 h1,
@@ -236,7 +236,7 @@ p {
   align-items: center;
   justify-content: center;
   margin: auto;
-  margin-top: 20%;
+  margin-top: 5%;
   width: 100%;
   padding: 2%;
 }
@@ -267,21 +267,15 @@ p {
   }
 }
 .home {
-  background: rgba(238, 119, 119, 0.45);
-  background: -moz-linear-gradient(left, rgba(238, 119, 119, 0.45) 0%, rgba(240, 47, 23, 0.61) 29%, rgba(246, 41, 12, 0.96) 93%, #f16f5c 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(238, 119, 119, 0.45)), color-stop(29%, rgba(240, 47, 23, 0.61)), color-stop(93%, rgba(246, 41, 12, 0.96)), color-stop(100%, #f16f5c));
-  background: -webkit-linear-gradient(left, rgba(238, 119, 119, 0.45) 0%, rgba(240, 47, 23, 0.61) 29%, rgba(246, 41, 12, 0.96) 93%, #f16f5c 100%);
-  background: -o-linear-gradient(left, rgba(238, 119, 119, 0.45) 0%, rgba(240, 47, 23, 0.61) 29%, rgba(246, 41, 12, 0.96) 93%, #f16f5c 100%);
-  background: -ms-linear-gradient(left, rgba(238, 119, 119, 0.45) 0%, rgba(240, 47, 23, 0.61) 29%, rgba(246, 41, 12, 0.96) 93%, #f16f5c 100%);
-  background: linear-gradient(to right, rgba(238, 119, 119, 0.45) 0%, rgba(240, 47, 23, 0.61) 29%, rgba(246, 41, 12, 0.96) 93%, #f16f5c 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ee7777', endColorstr='#f16f5c', GradientType=1);
+  background: rgba(255, 0, 0, 0.7);
+  border-radius: 14px;
 }
 .home .introduction {
   margin: 3% 3%;
 }
 .home .introduction h2 {
   font-size: 5rem;
-  margin-top: 20%;
+  margin-top: 8%;
   padding-top: 3%;
   text-align: center;
 }
@@ -297,4 +291,51 @@ p {
 .home .content-section .text-content p {
   margin-top: 3%;
   margin-bottom: 4%;
+}
+.testimonials {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  font-size: 5.5rem;
+  flex-direction: column;
+}
+.testimonials h2 {
+  background: rgba(255, 0, 0, 0.7);
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 1.5%;
+  margin-bottom: 2.5%;
+  padding-top: 0.5%;
+  text-align: center;
+  font-size: 3.5rem;
+  border-radius: 14px;
+}
+@media (max-width: 500px)  {
+  .testimonials h2 {
+    width: 60%;
+  }
+}
+.testimonials .testimony-section {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+@media (max-width: 500px)  {
+  .testimonials .testimony-section {
+    flex-direction: column;
+  }
+}
+.testimonials .testimony-section .boxes {
+  font-family: 'Delius Swash Caps', cursive;
+  font-size: 2.7rem;
+  background: rgba(255, 0, 0, 0.7);
+  width: 30%;
+  border-radius: 14px;
+  padding: 2%;
+}
+@media (max-width: 500px)  {
+  .testimonials .testimony-section .boxes {
+    width: 90%;
+    margin: 2% 0% 2% 4.5%;
+  }
 }
