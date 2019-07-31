@@ -13,7 +13,7 @@ a {
   border-radius: 16px;
   align-items: center;
   width: 50%;
-  height: 30%;
+  height: 10%;
   background: rgba(49, 16, 84, 0.6);
   color: white;
   border: 1px solid black;
@@ -167,6 +167,9 @@ html,
 body {
   font-family: 'Delius Swash Caps', cursive;
   color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 h1,
 h2,
@@ -201,9 +204,9 @@ p {
   background: rgba(49, 16, 84, 0.7);
   align-items: center;
   justify-content: center;
-  margin: auto;
   width: 100%;
   padding: 2%;
+  margin-bottom: 2%;
 }
 .main-navigation nav {
   margin: auto;
@@ -232,11 +235,9 @@ p {
   }
 }
 .bottom-navigation {
+  flex-shrink: 0;
   background: rgba(49, 16, 84, 0.5);
   align-items: center;
-  justify-content: center;
-  margin: auto;
-  margin-top: 5%;
   width: 100%;
   padding: 2%;
 }
@@ -275,8 +276,7 @@ p {
 }
 .home .introduction h2 {
   font-size: 5rem;
-  margin-top: 8%;
-  padding-top: 3%;
+  margin-top: 4%;
   text-align: center;
 }
 .home .content-section {
