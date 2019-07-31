@@ -1,0 +1,276 @@
+@media (max-width: 500px)  {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 500px)  {
+  .main-navigation .nav-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1%;
+  }
+  .main-navigation .nav-container .logo-heading {
+    font-size: 2.9rem;
+  }
+  .main-navigation .nav-container .nav {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  border-radius: 16px;
+  align-items: center;
+  width: 50%;
+  height: 20%;
+  background: rgba(49, 16, 84, 0.5);
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 3.75rem;
+  margin: auto;
+}
+.btn:hover {
+  background: rgba(74, 24, 127, 0.5);
+  color: #cccccc;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 70.5%;
+}
+html,
+body {
+  font-family: 'Oxygen', sans-serif;
+  color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Chicle', cursive;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.9rem;
+  padding-bottom: 10px;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 1.5%;
+}
+.main-navigation {
+  background: rgba(49, 16, 84, 0.7);
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  padding: 2%;
+}
+.main-navigation .nav {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.main-navigation .nav a {
+  font-size: 2.9rem;
+  color: white;
+  font-family: 'Chicle', cursive;
+  text-decoration: none;
+}
+.bottom-navigation {
+  background: rgba(49, 16, 84, 0.5);
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20%;
+  width: 100%;
+  padding: 2%;
+}
+.bottom-navigation nav {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.bottom-navigation nav a {
+  font-size: 2.9rem;
+  color: white;
+  font-family: 'Chicle', cursive;
+  text-decoration: none;
+}
+.home {
+  background: rgba(238, 119, 119, 0.45);
+  background: -moz-linear-gradient(left, rgba(238, 119, 119, 0.45) 0%, rgba(240, 47, 23, 0.61) 29%, rgba(246, 41, 12, 0.96) 93%, #f16f5c 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(238, 119, 119, 0.45)), color-stop(29%, rgba(240, 47, 23, 0.61)), color-stop(93%, rgba(246, 41, 12, 0.96)), color-stop(100%, #f16f5c));
+  background: -webkit-linear-gradient(left, rgba(238, 119, 119, 0.45) 0%, rgba(240, 47, 23, 0.61) 29%, rgba(246, 41, 12, 0.96) 93%, #f16f5c 100%);
+  background: -o-linear-gradient(left, rgba(238, 119, 119, 0.45) 0%, rgba(240, 47, 23, 0.61) 29%, rgba(246, 41, 12, 0.96) 93%, #f16f5c 100%);
+  background: -ms-linear-gradient(left, rgba(238, 119, 119, 0.45) 0%, rgba(240, 47, 23, 0.61) 29%, rgba(246, 41, 12, 0.96) 93%, #f16f5c 100%);
+  background: linear-gradient(to right, rgba(238, 119, 119, 0.45) 0%, rgba(240, 47, 23, 0.61) 29%, rgba(246, 41, 12, 0.96) 93%, #f16f5c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ee7777', endColorstr='#f16f5c', GradientType=1);
+}
+.home .introduction {
+  margin: 3% 3%;
+}
+.home .introduction h2 {
+  font-size: 5rem;
+  margin-top: 20%;
+  padding-top: 3%;
+  text-align: center;
+}
+.home .content-section {
+  margin: 3% 3%;
+  display: flex;
+  text-align: center;
+}
+.home .content-section .text-content {
+  width: 100%;
+  text-align: center;
+}
+.home .content-section .text-content p {
+  margin-top: 3%;
+  margin-bottom: 4%;
+}
