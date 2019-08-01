@@ -165,11 +165,11 @@ html {
 }
 html,
 body {
-  font-family: 'Delius Swash Caps', cursive;
-  color: white;
   display: flex;
   flex-direction: column;
   height: 100%;
+  font-family: 'Delius Swash Caps', cursive;
+  color: white;
 }
 h1,
 h2,
@@ -238,6 +238,7 @@ p {
   flex-shrink: 0;
   background: rgba(49, 16, 84, 0.5);
   align-items: center;
+  margin: auto;
   width: 100%;
   padding: 2%;
 }
@@ -272,11 +273,11 @@ p {
   border-radius: 14px;
 }
 .home .introduction {
-  margin: 4% 3%;
+  margin: 3% 3%;
 }
 .home .introduction h2 {
   font-size: 5rem;
-  margin-top: 1%;
+  margin-top: 8%;
   text-align: center;
 }
 .home .content-section {
@@ -305,7 +306,7 @@ p {
   margin: 0 auto;
   margin-top: 1.5%;
   margin-bottom: 2.5%;
-  padding-top: 0.5%;
+  padding-top: 1%;
   text-align: center;
   font-size: 3.5rem;
   border-radius: 14px;
@@ -331,6 +332,7 @@ p {
   background: rgba(255, 0, 0, 0.7);
   width: 30%;
   border-radius: 14px;
+  margin-bottom: 1%;
   padding: 2%;
 }
 @media (max-width: 500px)  {
