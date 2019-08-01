@@ -161,7 +161,7 @@ table {
   box-sizing: border-box;
 }
 html {
-  font-size: 62.5%;
+  font-size: 70%;
 }
 html,
 body {
@@ -272,11 +272,11 @@ p {
   border-radius: 14px;
 }
 .home .introduction {
-  margin: 3% 3%;
+  margin: 4% 3%;
 }
 .home .introduction h2 {
   font-size: 5rem;
-  margin-top: 4%;
+  margin-top: 1%;
   text-align: center;
 }
 .home .content-section {
