@@ -165,9 +165,6 @@ html {
 }
 html,
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
   font-family: 'Delius Swash Caps', cursive;
   color: white;
 }
@@ -235,7 +232,6 @@ p {
   }
 }
 .bottom-navigation {
-  flex-shrink: 0;
   background: rgba(49, 16, 84, 0.5);
   align-items: center;
   margin: auto;
