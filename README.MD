@@ -36,7 +36,7 @@
 - Have you considered using Apple Frameworks? (MapKit, Healthkit, ARKit?)
 
 
-* For the Front End UI I used Google Fonts for several of my fonts to influence the round styling and bubble nature of the page and icons.
+* For the Front End UI I used Google Fonts for several of my fonts to influence the round styling and bubble nature of the page and icons. I also utilized LESS for CSS compiling.
 
 #For Data Scientists
 
