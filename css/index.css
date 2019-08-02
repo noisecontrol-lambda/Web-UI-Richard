@@ -14,13 +14,14 @@ a {
   align-items: center;
   width: 50%;
   height: 10%;
-  background: rgba(49, 16, 84, 0.6);
+  background: rgba(49, 16, 84, 0.3);
   color: white;
   border: 1px solid black;
   cursor: pointer;
   font-size: 3.75rem;
   margin: auto;
   transition: 0.5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
 }
 .btn:hover {
   background: white;
@@ -276,6 +277,7 @@ p {
   font-size: 5rem;
   margin-top: 8%;
   text-align: center;
+  text-shadow: 4px 4px 4px #000000;
 }
 .home .content-section {
   margin: 3% 3%;
@@ -299,6 +301,7 @@ p {
 }
 .testimonials h2 {
   background: rgba(255, 0, 0, 0.7);
+  text-shadow: 2px 2px 4px #000000;
   width: 30%;
   margin: 0 auto;
   margin-top: 1.5%;
@@ -354,7 +357,7 @@ p {
   font-family: 'Delius Swash Caps', cursive;
   font-size: 2.7rem;
   background: rgba(255, 0, 0, 0.7);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
   width: 28%;
   border-radius: 14px;
   margin-bottom: 5%;
@@ -370,32 +373,43 @@ p {
     margin: 2% 0% 2% 4.5%;
   }
 }
-.rows h2 {
-  background: rgba(255, 0, 0, 0.7);
-  width: 80%;
+.rows .containers {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+.rows .containers h2 {
+  background: rgba(255, 0, 0, 0.6);
+  width: 100%;
   margin: 0 auto;
   margin-top: 1.5%;
-  margin-bottom: 2.5%;
-  padding-top: 1%;
+  margin-bottom: 1.5%;
+  padding-top: 2%;
   text-align: center;
   font-size: 3.5rem;
+  text-shadow: 2px 2px 4px #000000;
   border-radius: 14px;
 }
-/*padding inside the container */
-/* Clear floats */
-.title {
+.rows .containers .title {
   color: white;
+  text-align: center;
+  text-shadow: 4px 4px 4px #000000;
 }
-.button {
-  padding: 3%;
+.rows .containers .button {
   color: white;
+  font-size: 2.5rem;
+  font-family: 'Delius Swash Caps', cursive;
+  text-shadow: 2px 2px 4px #000000;
+  padding: auto;
+  margin-bottom: 2%;
   background: rgba(49, 16, 84, 0.7);
   text-align: center;
   cursor: pointer;
-  width: 80%;
+  width: 100%;
   border-radius: 14px;
 }
-.button:hover {
+.rows .containers .button:hover {
   background: white;
   color: rgba(49, 16, 84, 0.8);
   -ms-transform: translateX(12px);
